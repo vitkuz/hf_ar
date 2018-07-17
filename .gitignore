@@ -1,0 +1,56 @@
+# Logs
+log
+logs
+*.log
+npm-debug.log.*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Built Assets folder
+public/css
+public/js
+
+# Releases folder
+release
+
+# Process folder
+proc
+
+# Export folder
+locale/*
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Bower dependency directory
+bower_components
+
+# IntelliJ IDEA
+.idea
+
+# Visual Studio
+.vscode
+jsconfig.json
+
+# OSX System file
+.DS_Store
+
+# prerelease semver flag for CI
+.version
+.properties
+
+.eslintcache
+
+# Code coverage folders
+coverage/server
+coverage/client
+
+# Smartling
+smartling/csv
+smartling/en-GB.json
+.dgsstoken
